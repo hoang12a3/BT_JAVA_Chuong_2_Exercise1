@@ -25,5 +25,13 @@ public class App {
                 sum += y;
         double tbc = sum * 1.0 / m;
         System.out.println(tbc);
+        System.out.println("d:");
+        String S, T;
+        S = scanner.next();
+        System.out.println(S);
+        T = scanner.nextLine();
+        System.out.println(T);
+        System.out.println(S.length() + T.length());
+        System.out.println(T.indexOf(S));
     }
 }
